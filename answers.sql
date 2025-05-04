@@ -39,11 +39,11 @@ CREATE TABLE OrderDetails (
 );
 
 INSERT INTO OrderDetails VALUES
-(101, 'John Doe', 'Laptop', 2),
-(101, 'John Doe', 'Mouse', 1),
-(102, 'Jane Smith', 'Tablet', 3),
-(102, 'Jane Smith', 'Keyboard', 1),
-(102, 'Jane Smith', 'Mouse', 2),
+(101, 'John Doe', 'Laptop', 2);
+(101, 'John Doe', 'Mouse', 1);
+(102, 'Jane Smith', 'Tablet', 3);
+(102, 'Jane Smith', 'Keyboard', 1);
+(102, 'Jane Smith', 'Mouse', 2);
 (103, 'Emily Clark', 'Phone', 1);
 
 
@@ -54,8 +54,8 @@ CREATE TABLE Orders (
 );
 
 INSERT INTO Orders (OrderID, CustomerName) VALUES
-(101, 'John Doe'),
-(102, 'Jane Smith'),
+(101, 'John Doe');
+(102, 'Jane Smith');
 (103, 'Emily Clark');
 
 
@@ -70,11 +70,11 @@ CREATE TABLE OrderItems (
 
 
 INSERT INTO OrderItems (OrderID, Product, Quantity) VALUES
-(101, 'Laptop', 2),
-(101, 'Mouse', 1),
-(102, 'Tablet', 3),
-(102, 'Keyboard', 1),
-(102, 'Mouse', 2),
+(101, 'Laptop', 2);
+(101, 'Mouse', 1);
+(102, 'Tablet', 3);
+(102, 'Keyboard', 1);
+(102, 'Mouse', 2);
 (103, 'Phone', 1);
 
 
